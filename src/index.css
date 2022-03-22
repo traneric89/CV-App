@@ -33,7 +33,7 @@ body {
   margin-right: 25px;
   border-radius: 10px;
   padding: 35px 35px 35px 35px;
-  box-shadow: 5px 5px 4px #8f8d8d;
+  box-shadow: 2px 2px 4px #8f8d8d;
 }
 
 input {
@@ -114,4 +114,29 @@ input[type="submit"] {
 .skills-cv {
   font-size: 20px;
   padding-left: 20px;
+}
+
+.footer {
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 50px;
+  background-color: rgb(56, 55, 55);
+  color: white;
+}
+
+.fa-github {
+  color: white;
+  font-size: 24px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.fa-github:hover {
+  transform: rotate(360deg) scale(1.2);
 }

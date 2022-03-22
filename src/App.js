@@ -4,6 +4,7 @@ import FormContainer from "./components/FormContainer";
 import CVContainer from "./components/CVContainer";
 import { useState } from "react";
 import uniqid from "uniqid";
+import Footer from "./components/Footer";
 
 const App = () => {
   const [personalInfo, setPersonalInfo] = useState([]);
@@ -58,6 +59,7 @@ const App = () => {
           skills={skills}
         />
       </div>
+      <Footer />
     </div>
   );
 };
