@@ -31,8 +31,7 @@ body {
   background-color: #d3d3d3;
   margin-right: 25px;
   border-radius: 10px;
-  padding: 0 35px 35px 35px;
-  height: 100%;
+  padding: 35px 35px 35px 35px;
 }
 
 input {
@@ -42,14 +41,15 @@ input {
   padding: 4px 16px;
   width: 100%;
   min-height: 35px;
-  border: unset;
+  border: none;
+  outline: none;
   border-radius: 4px;
-  outline-color: #607d8b;
   background-color: rgb(255, 255, 255);
   margin: 2px 0;
 }
 
 input[type="submit"] {
+  cursor: pointer;
   background-color: #50535a;
   color: white;
   text-align: center;
@@ -58,7 +58,7 @@ input[type="submit"] {
 }
 
 .form-container h2 {
-  margin: 30px 0 10px 0;
+  margin: 10px 0 10px 0;
 }
 
 .cv-container {
@@ -70,5 +70,20 @@ input[type="submit"] {
 }
 
 .personal-cv {
-  background-color: pink;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.education-cv {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.work-cv {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.skills-cv {
+  font-size: 20px;
 }

@@ -29,6 +29,7 @@ const Work = ({ onAddWork }) => {
           id="company"
           placeholder="Company "
           autoComplete="false"
+          value={company}
           onChange={(e) => setCompany(e.target.value)}
         />
         <input
@@ -36,6 +37,7 @@ const Work = ({ onAddWork }) => {
           id="position"
           placeholder="Position"
           autoComplete="false"
+          value={position}
           onChange={(e) => setPosition(e.target.value)}
         />
         <input
@@ -43,6 +45,7 @@ const Work = ({ onAddWork }) => {
           id="duration"
           placeholder="Duration"
           autoComplete="false"
+          value={duration}
           onChange={(e) => setDuration(e.target.value)}
         />
         <input
@@ -50,6 +53,7 @@ const Work = ({ onAddWork }) => {
           id="details"
           placeholder="Details"
           autoComplete="false"
+          value={details}
           onChange={(e) => setDetails(e.target.value)}
         />
         <input type="submit" value="Add Work Experience" />

@@ -23,6 +23,7 @@ const Skills = ({ onAddSkills }) => {
           id="skill"
           placeholder="Skill"
           autoComplete="false"
+          value={skill}
           onChange={(e) => setSkill(e.target.value)}
         />
         <input type="submit" value="Add Skill" />

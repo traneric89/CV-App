@@ -29,6 +29,7 @@ const Education = ({ onAddEducation }) => {
           id="school"
           placeholder="School Name"
           autoComplete="false"
+          value={school}
           onChange={(e) => setSchool(e.target.value)}
         />
         <input
@@ -36,6 +37,7 @@ const Education = ({ onAddEducation }) => {
           id="subject"
           placeholder="Area of Study"
           autoComplete="false"
+          value={subject}
           onChange={(e) => setSubject(e.target.value)}
         />
         <input
@@ -43,6 +45,7 @@ const Education = ({ onAddEducation }) => {
           id="degree"
           placeholder="Degree"
           autoComplete="false"
+          value={degree}
           onChange={(e) => setDegree(e.target.value)}
         />
         <input
@@ -50,6 +53,7 @@ const Education = ({ onAddEducation }) => {
           id="completion"
           placeholder="Year of Completion"
           autoComplete="false"
+          value={completion}
           onChange={(e) => setCompletion(e.target.value)}
         />
         <input type="submit" value="Add Education" />
