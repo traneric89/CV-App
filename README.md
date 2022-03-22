@@ -1,6 +1,6 @@
-## CV Application
+# CV Application
 
-# CV Application that allows user to create their own custom CV by inputting information such as contact info, education, work experience and skills.
+CV Application that allows user to create their own custom CV by inputting information such as contact info, education, work experience and skills.
 
 Built using:
 - React
