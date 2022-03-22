@@ -1,5 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #607d8b;
+}
+
+.header {
+  background-color: #607d8b;
+  color: rgb(245, 238, 238);
+  text-align: center;
+  font-size: 68px;
+  padding: 15px 0;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  height: 100vh;
+}
+
+.form-container {
+  width: 50%;
+  background-color: #d3d3d3;
+  margin-right: 25px;
+  border-radius: 10px;
+  padding: 0 35px 35px 35px;
+  height: 100%;
+}
+
+input {
+  width: 100%;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 4px 16px;
+  width: 100%;
+  min-height: 35px;
+  border: unset;
+  border-radius: 4px;
+  outline-color: #607d8b;
+  background-color: rgb(255, 255, 255);
+  margin: 2px 0;
+}
+
+input[type="submit"] {
+  background-color: #50535a;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  height: 40px;
+}
+
+.form-container h2 {
+  margin: 30px 0 10px 0;
+}
+
+.cv-container {
+  background-color: white;
+  width: 50%;
+  margin-left: 25px;
+  border-radius: 5px;
+  padding: 35px;
+}
+
+.personal-cv {
+  background-color: pink;
 }

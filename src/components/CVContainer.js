@@ -6,8 +6,7 @@ import CVSkills from "./CVSkills";
 
 const CVContainer = ({ personalInfo, education, work, skills }) => {
   return (
-    <div>
-      <h2>Personal Information</h2>
+    <div className="cv-container">
       {personalInfo.map((info) => (
         <CVPersonalInfo key={info.id} personalInfo={info} />
       ))}

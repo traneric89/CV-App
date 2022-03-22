@@ -21,7 +21,7 @@ const PersonalInfo = ({ onAddPersonalInfo }) => {
   };
 
   return (
-    <div>
+    <div className="personal-container">
       <h2>Personal Information</h2>
       <form className="personal-form" onSubmit={onSubmit}>
         <input

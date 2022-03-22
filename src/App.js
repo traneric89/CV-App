@@ -41,8 +41,10 @@ const App = () => {
 
   return (
     <div>
-      <Header />
-      <div>
+      <header className="header">
+        <Header />
+      </header>
+      <div className="container">
         <FormContainer
           onAddPersonalInfo={addPersonalInfo}
           onAddEducation={addEducation}
